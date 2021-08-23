@@ -103,6 +103,8 @@ Ikki.Left = styled.div`
   opacity: 0.7;
 `;
 Ikki.Body = styled.div`
+  width: 748px;
+  height: 64px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
