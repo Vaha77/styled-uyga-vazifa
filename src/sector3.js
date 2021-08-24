@@ -86,6 +86,7 @@ Bott.Bot = styled.button`
   color: white;
   font-size: 25px;
   border: none;
+  cursor: pointer;
 `;
 
 export const Yulduz = styled.div`

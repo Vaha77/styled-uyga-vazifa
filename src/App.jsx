@@ -7,6 +7,7 @@ import Sector3 from "./sector3.jsx";
 import Sector4 from "./sector4.jsx";
 import Sector5 from "./sector5.jsx";
 import Sector6 from "./sector6.jsx";
+import Sector from "./sector";
 
 export default class App extends Component {
   render() {
@@ -19,6 +20,7 @@ export default class App extends Component {
         <Sector4 />
         <Sector5 />
         <Sector6 />
+        <Sector />
       </Wrapper>
     );
   }

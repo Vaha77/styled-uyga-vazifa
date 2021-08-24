@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Button } from "./NavbarStyle";
 import { Feat, Food } from "./sector2";
-import { Container, Input } from "./sector6";
+import { Container, Input, Kit, Nput, Sen } from "./sector6";
 
 export default class Sector6 extends Component {
   render() {
@@ -13,8 +13,10 @@ export default class Sector6 extends Component {
           <br />
           equipment, Skills to manage.
         </Food>
-        <Input placeholder="Enter your message" s></Input>
-        <Button bgcolor=" #DC780B">Send</Button>
+        <Nput>
+          <Input placeholder="Enter your message" s></Input>
+          <Sen>send</Sen>
+        </Nput>
       </Container>
     );
   }

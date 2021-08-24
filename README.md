@@ -68,3 +68,115 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+<!-- <Container>
+          <Container.Left>Qualtity Food</Container.Left>
+
+          <Container.Body>Food Delivery</Container.Body>
+          <Container.Right>Super Taste</Container.Right>
+        </Container>
+        <Ikki>
+          <Ikki.Left>
+            It can be a very secure path to earn good money and make you very
+            successful creative entrepreneur.
+          </Ikki.Left>
+          <Ikki.Body>
+            It can be a very secure path to earn good money and make you very
+            successful creative entrepreneur.
+          </Ikki.Body>
+          <Ikki.Right>
+            It can be a very secure path to earn good money and make you very
+            successful creative entrepreneur.
+          </Ikki.Right>
+        </Ikki> -->
+
+<!-- Container.Left = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* display: flex;
+  flex: 1; */
+  font-family: Philosopher;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 24px;
+  /* identical to box height, or 96% */
+
+  color: #150c01;
+`;
+Container.Body = styled.div`
+  /* display: flex;
+  flex: 1; */
+  margin: 0px 400px 0px 400px;
+  font-family: Philosopher;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 24px;
+  /* identical to box height, or 96% */
+
+  text-align: center;
+
+  color: #150c01;
+`;
+Container.Right = styled.div`
+  /* display: flex;
+  flex: 1; */
+  font-family: Philosopher;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 24px;
+  /* identical to box height, or 96% */
+
+  text-align: center;
+
+  color: #150c01;
+`;
+export const Ikki = styled.div`
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+`;
+Ikki.Left = styled.div`
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  text-align: center;
+
+  color: #150c01;
+
+  opacity: 0.7;
+`;
+Ikki.Body = styled.div`
+  width: 748px;
+  height: 64px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  margin: 0px 100px 0px 100px;
+
+  color: #150c01;
+
+  opacity: 0.7;
+`;
+Ikki.Right = styled.div`
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #150c01;
+  opacity: 0.7;
+`; -->

@@ -34,54 +34,6 @@ export const Food = styled.div`
   color: #150c01;
 `;
 
-export const Container = styled.div`
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  margin-top: 200px;
-`;
-Container.Left = styled.div`
-  /* display: flex;
-  flex: 1; */
-  font-family: Philosopher;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 25px;
-  line-height: 24px;
-  /* identical to box height, or 96% */
-
-  color: #150c01;
-`;
-Container.Body = styled.div`
-  /* display: flex;
-  flex: 1; */
-  margin: 0px 400px 0px 400px;
-  font-family: Philosopher;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 25px;
-  line-height: 24px;
-  /* identical to box height, or 96% */
-
-  text-align: center;
-
-  color: #150c01;
-`;
-Container.Right = styled.div`
-  /* display: flex;
-  flex: 1; */
-  font-family: Philosopher;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 25px;
-  line-height: 24px;
-  /* identical to box height, or 96% */
-
-  text-align: center;
-
-  color: #150c01;
-`;
 export const Ikki = styled.div`
   display: flex;
   width: 100%;
@@ -134,7 +86,7 @@ export const Uch = styled.div`
   margin-top: 110px;
 `;
 Uch.Left = styled.img`
-  width: 787px;
+  width: 500px;
   height: 586px;
   border-radius: 30px;
   margin-left: 100px;
@@ -145,7 +97,7 @@ Uch.Right = styled.div`
   display: flex;
   flex-direction: column;
   flex: 1;
-  margin-left: 50px;
+  margin-left: 100px;
   margin-top: 150px;
 `;
 
@@ -180,4 +132,60 @@ export const Theare = styled.div`
   color: #150c01;
   opacity: 0.7;
   margin: 30px 0px 40px;
+`;
+
+export const Container = styled.div`
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
+export const Yangi = styled.div`
+  width: 1600px;
+  height: 333px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
+export const Qu = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 330px;
+  height: 330px;
+  margin: 0 100px 0 100px;
+  align-items: center;
+  justify-content: center;
+`;
+
+export const Bag = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 88px;
+  height: 88px;
+  opacity: 0.9;
+  background: ${({ bgcolor }) => bgcolor};
+  border-radius: 50%;
+`;
+export const BagIm = styled.img`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 46px;
+  height: 46px;
+`;
+
+export const It = styled.div`
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #150c01;
+  opacity: 0.7;
+  padding-top: 20px;
 `;

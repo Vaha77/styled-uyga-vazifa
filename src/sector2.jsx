@@ -1,44 +1,68 @@
 import React, { Component } from "react";
 import {
   Abaut,
+  Bag,
+  BagIm,
   Container,
   Feat,
   Food,
   Foods,
   Ikki,
+  It,
   Itcan,
+  Qu,
   Second,
   Theare,
   Uch,
+  Yangi,
 } from "./sector2";
+import home from "./img/home.png";
+import pedal from "./img/pedal.png";
+import smail from "./img/home.png";
 import img from "./img/qiz.png";
 import { Button } from "./NavbarStyle";
 export default class Sector2 extends Component {
   render() {
     return (
       <Second>
-        <Feat>features</Feat>
-        <Food>Food with a New Passion</Food>
         <Container>
-          <Container.Left>Qualtity Food</Container.Left>
-
-          <Container.Body>Food Delivery</Container.Body>
-          <Container.Right>Super Taste</Container.Right>
+          <Feat>Features</Feat>
+          <Food>Food with a New Passion</Food>
+          <Yangi>
+            <Qu>
+              <Bag bgcolor="#8fa63292;">
+                <BagIm src={home} />
+              </Bag>
+              <Food>Quality Food</Food>
+              <It>
+                It can be a very secure path to earn good money and make you
+                very successful creative entrepreneur.
+              </It>
+            </Qu>
+            <Qu>
+              {" "}
+              <Bag bgcolor="#e64d2e99;">
+                <BagIm src={pedal} />
+              </Bag>
+              <Food>Quality Food</Food>
+              <It>
+                It can be a very secure path to earn good money and make you
+                very successful creative entrepreneur.
+              </It>
+            </Qu>
+            <Qu>
+              {" "}
+              <Bag bgcolor="#dc770b65">
+                <BagIm src={smail} />
+              </Bag>
+              <Food>Quality Food</Food>
+              <It>
+                It can be a very secure path to earn good money and make you
+                very successful creative entrepreneur.
+              </It>
+            </Qu>
+          </Yangi>
         </Container>
-        <Ikki>
-          <Ikki.Left>
-            It can be a very secure path to earn good money and make you very
-            successful creative entrepreneur.
-          </Ikki.Left>
-          <Ikki.Body>
-            It can be a very secure path to earn good money and make you very
-            successful creative entrepreneur.
-          </Ikki.Body>
-          <Ikki.Right>
-            It can be a very secure path to earn good money and make you very
-            successful creative entrepreneur.
-          </Ikki.Right>
-        </Ikki>
 
         <Uch>
           <Uch.Left src={img} />
