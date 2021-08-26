@@ -38,12 +38,11 @@ Contikki.Left = styled.div`
 Contikki.Riht = styled.img`
   display: flex;
   flex: 1;
-
   position: relative;
-  width: 200px;
+  width: 550px;
   height: 800px;
   right: 50px;
-  bottom: 120px;
+  /* margin-bottom: 120px; */
 `;
 
 export const Take = styled.div`

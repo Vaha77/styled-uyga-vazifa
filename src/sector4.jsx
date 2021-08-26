@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Desc } from "./Bodystle";
 import { Button } from "./NavbarStyle";
 import { Contikki, Knop, Lear, Stell, Take, Tort } from "./sector4";
-import phone from "./img/phone.png";
+import phone from "./img/pho.png";
 export default class Sector4 extends Component {
   render() {
     return (
